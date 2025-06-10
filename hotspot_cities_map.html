@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bc0e3048d1ae07a8680ccf86049067c8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bc0e3048d1ae07a8680ccf86049067c8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bc0e3048d1ae07a8680ccf86049067c8 = L.map(
+                "map_bc0e3048d1ae07a8680ccf86049067c8",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fc253d023114be8f77924bcab5756766 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fc253d023114be8f77924bcab5756766.addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var marker_7ac7f6e9119f1f824cfd694f80bd5669 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_1c3e0ac68bcb8612b57cc74f4317be0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91f9ac2802ab46ebadb441c3855eab72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9d0432d085af8612ecb78408dfccb4b = $(`<div id="html_a9d0432d085af8612ecb78408dfccb4b" style="width: 100.0%; height: 100.0%;">New York, USA: 43,733 streams</div>`)[0];
+                popup_91f9ac2802ab46ebadb441c3855eab72.setContent(html_a9d0432d085af8612ecb78408dfccb4b);
+            
+        
+
+        marker_7ac7f6e9119f1f824cfd694f80bd5669.bindPopup(popup_91f9ac2802ab46ebadb441c3855eab72)
+        ;
+
+        
+    
+    
+                marker_7ac7f6e9119f1f824cfd694f80bd5669.setIcon(icon_1c3e0ac68bcb8612b57cc74f4317be0d);
+            
+    
+            var marker_91d24f6fb4631347a69aede766569b78 = L.marker(
+                [37.36472036424567, -94.63800576685368],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_515e1985553340e94dd3f4c059bfd5cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_395368658190745646afe0819000bb20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2a7ae0a70d70377ae7bafd163adef15 = $(`<div id="html_b2a7ae0a70d70377ae7bafd163adef15" style="width: 100.0%; height: 100.0%;">Chicago, USA: 43,165 streams</div>`)[0];
+                popup_395368658190745646afe0819000bb20.setContent(html_b2a7ae0a70d70377ae7bafd163adef15);
+            
+        
+
+        marker_91d24f6fb4631347a69aede766569b78.bindPopup(popup_395368658190745646afe0819000bb20)
+        ;
+
+        
+    
+    
+                marker_91d24f6fb4631347a69aede766569b78.setIcon(icon_515e1985553340e94dd3f4c059bfd5cd);
+            
+    
+            var marker_fe325799c8c947e9992e90e1c1f18dfa = L.marker(
+                [56.09254766632971, -5.194620359833122],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_8f7e5ecb0360dc2981539835e533dc45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8fd3604cfc2cc79e99238ac111051236 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9972c44b9fc415e99256ef3978847372 = $(`<div id="html_9972c44b9fc415e99256ef3978847372" style="width: 100.0%; height: 100.0%;">Liverpool, UK: 41,634 streams</div>`)[0];
+                popup_8fd3604cfc2cc79e99238ac111051236.setContent(html_9972c44b9fc415e99256ef3978847372);
+            
+        
+
+        marker_fe325799c8c947e9992e90e1c1f18dfa.bindPopup(popup_8fd3604cfc2cc79e99238ac111051236)
+        ;
+
+        
+    
+    
+                marker_fe325799c8c947e9992e90e1c1f18dfa.setIcon(icon_8f7e5ecb0360dc2981539835e533dc45);
+            
+    
+            var marker_bed9209f828b96daaab318ae1154f4f9 = L.marker(
+                [56.8764219869291, -106.37856344010845],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_b55ec49dab182cef60a29be5ed6d348d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_27dc041563747594f46f66cfc9f4d420 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35e126a4b0c9eadb61ab30ce16dc8ad2 = $(`<div id="html_35e126a4b0c9eadb61ab30ce16dc8ad2" style="width: 100.0%; height: 100.0%;">Vancouver, Canada: 40,819 streams</div>`)[0];
+                popup_27dc041563747594f46f66cfc9f4d420.setContent(html_35e126a4b0c9eadb61ab30ce16dc8ad2);
+            
+        
+
+        marker_bed9209f828b96daaab318ae1154f4f9.bindPopup(popup_27dc041563747594f46f66cfc9f4d420)
+        ;
+
+        
+    
+    
+                marker_bed9209f828b96daaab318ae1154f4f9.setIcon(icon_b55ec49dab182cef60a29be5ed6d348d);
+            
+    
+            var marker_e899136fde75a392b2c093a1a2ab7b82 = L.marker(
+                [-13.012786177377128, -52.62852633960511],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_55ae7ff3c5a8a28203e14278b65946b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29a6e9876f77e5f6fd5369e4194b85d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d671fefaf1e53a48de4e1e4c11a427f = $(`<div id="html_0d671fefaf1e53a48de4e1e4c11a427f" style="width: 100.0%; height: 100.0%;">Rio de Janeiro, Brazil: 39,342 streams</div>`)[0];
+                popup_29a6e9876f77e5f6fd5369e4194b85d3.setContent(html_0d671fefaf1e53a48de4e1e4c11a427f);
+            
+        
+
+        marker_e899136fde75a392b2c093a1a2ab7b82.bindPopup(popup_29a6e9876f77e5f6fd5369e4194b85d3)
+        ;
+
+        
+    
+    
+                marker_e899136fde75a392b2c093a1a2ab7b82.setIcon(icon_55ae7ff3c5a8a28203e14278b65946b7);
+            
+    
+            var marker_9812a53f285d672d4cf5d59996b071f1 = L.marker(
+                [52.31912717613699, 9.080584431538298],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_28e6d7d79457a78e9ab3849f44326fb5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6196046d0a758e85e4b49c1edfb6849 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c67d55012c74f33890dd923027d7f34 = $(`<div id="html_8c67d55012c74f33890dd923027d7f34" style="width: 100.0%; height: 100.0%;">Cologne, Germany: 38,828 streams</div>`)[0];
+                popup_f6196046d0a758e85e4b49c1edfb6849.setContent(html_8c67d55012c74f33890dd923027d7f34);
+            
+        
+
+        marker_9812a53f285d672d4cf5d59996b071f1.bindPopup(popup_f6196046d0a758e85e4b49c1edfb6849)
+        ;
+
+        
+    
+    
+                marker_9812a53f285d672d4cf5d59996b071f1.setIcon(icon_28e6d7d79457a78e9ab3849f44326fb5);
+            
+    
+            var marker_80c1ff86d1bd13da4424022a406b11a7 = L.marker(
+                [51.911511087400356, 11.988011869860049],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_ac4c020b72d47d408a5292f48c4757d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0db90d3d24313e572e7b4af0db712a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecf2b1bd8ca9d82cbd75e949528f2f94 = $(`<div id="html_ecf2b1bd8ca9d82cbd75e949528f2f94" style="width: 100.0%; height: 100.0%;">Frankfurt, Germany: 33,598 streams</div>`)[0];
+                popup_d0db90d3d24313e572e7b4af0db712a7.setContent(html_ecf2b1bd8ca9d82cbd75e949528f2f94);
+            
+        
+
+        marker_80c1ff86d1bd13da4424022a406b11a7.bindPopup(popup_d0db90d3d24313e572e7b4af0db712a7)
+        ;
+
+        
+    
+    
+                marker_80c1ff86d1bd13da4424022a406b11a7.setIcon(icon_ac4c020b72d47d408a5292f48c4757d1);
+            
+    
+            var marker_5d0e5e2e67acb6603afaf85fb7f2e157 = L.marker(
+                [37.5665, 126.978],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_c6163e8c916ed5529eb64559d6ed75bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e404b6d3d71546c7b9075c219c008ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7be18f23002b1a75cba4a48ea723de42 = $(`<div id="html_7be18f23002b1a75cba4a48ea723de42" style="width: 100.0%; height: 100.0%;">Seoul, South Korea: 33,277 streams</div>`)[0];
+                popup_0e404b6d3d71546c7b9075c219c008ac.setContent(html_7be18f23002b1a75cba4a48ea723de42);
+            
+        
+
+        marker_5d0e5e2e67acb6603afaf85fb7f2e157.bindPopup(popup_0e404b6d3d71546c7b9075c219c008ac)
+        ;
+
+        
+    
+    
+                marker_5d0e5e2e67acb6603afaf85fb7f2e157.setIcon(icon_c6163e8c916ed5529eb64559d6ed75bc);
+            
+    
+            var marker_7c815959610d2719565a8fb88ca603c6 = L.marker(
+                [53.911272322725765, -4.747974328162022],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_e7e158974f385952e15f13208e606a6a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_80379b56d09c92ea3017d6aeacd0f610 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e168ed225466c34a25a234343dc5c4a5 = $(`<div id="html_e168ed225466c34a25a234343dc5c4a5" style="width: 100.0%; height: 100.0%;">Glasgow, UK: 32,265 streams</div>`)[0];
+                popup_80379b56d09c92ea3017d6aeacd0f610.setContent(html_e168ed225466c34a25a234343dc5c4a5);
+            
+        
+
+        marker_7c815959610d2719565a8fb88ca603c6.bindPopup(popup_80379b56d09c92ea3017d6aeacd0f610)
+        ;
+
+        
+    
+    
+                marker_7c815959610d2719565a8fb88ca603c6.setIcon(icon_e7e158974f385952e15f13208e606a6a);
+            
+    
+            var marker_f6cf2f96bcc872a74dda870c2dc4e900 = L.marker(
+                [34.41963519317045, 126.00487608298221],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_1a406fdd2b32f871cfc31455c4820030 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c998304f7cb3f46d8f074d5ac17199cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3240cd98dce478ee4f763f5feb6a0db9 = $(`<div id="html_3240cd98dce478ee4f763f5feb6a0db9" style="width: 100.0%; height: 100.0%;">Incheon, South Korea: 32,260 streams</div>`)[0];
+                popup_c998304f7cb3f46d8f074d5ac17199cd.setContent(html_3240cd98dce478ee4f763f5feb6a0db9);
+            
+        
+
+        marker_f6cf2f96bcc872a74dda870c2dc4e900.bindPopup(popup_c998304f7cb3f46d8f074d5ac17199cd)
+        ;
+
+        
+    
+    
+                marker_f6cf2f96bcc872a74dda870c2dc4e900.setIcon(icon_1a406fdd2b32f871cfc31455c4820030);
+            
+    
+            var marker_3accaf8e5be9be3f917140c35001041e = L.marker(
+                [18.99250063810905, 79.68316219328344],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_7fbc795c46397d0e10c11d8f67d0921b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0cc0993dbdf9f52b228d57c9ebaea3d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af487076a43f38167fcbc163998ba9aa = $(`<div id="html_af487076a43f38167fcbc163998ba9aa" style="width: 100.0%; height: 100.0%;">Kolkata, India: 32,171 streams</div>`)[0];
+                popup_0cc0993dbdf9f52b228d57c9ebaea3d6.setContent(html_af487076a43f38167fcbc163998ba9aa);
+            
+        
+
+        marker_3accaf8e5be9be3f917140c35001041e.bindPopup(popup_0cc0993dbdf9f52b228d57c9ebaea3d6)
+        ;
+
+        
+    
+    
+                marker_3accaf8e5be9be3f917140c35001041e.setIcon(icon_7fbc795c46397d0e10c11d8f67d0921b);
+            
+    
+            var marker_847319e3b5461b97a29196e4065ad194 = L.marker(
+                [-12.530639995204577, -53.74148859107742],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_9628e369d184dca4d177a61b538599bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ef9f8b5af0993b9d51c31cf12c7b46d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bf3df57423157cbba5132045f03cf8b = $(`<div id="html_4bf3df57423157cbba5132045f03cf8b" style="width: 100.0%; height: 100.0%;">Fortaleza, Brazil: 32,142 streams</div>`)[0];
+                popup_0ef9f8b5af0993b9d51c31cf12c7b46d.setContent(html_4bf3df57423157cbba5132045f03cf8b);
+            
+        
+
+        marker_847319e3b5461b97a29196e4065ad194.bindPopup(popup_0ef9f8b5af0993b9d51c31cf12c7b46d)
+        ;
+
+        
+    
+    
+                marker_847319e3b5461b97a29196e4065ad194.setIcon(icon_9628e369d184dca4d177a61b538599bc);
+            
+    
+            var marker_5030405e4d2497cfbcd114cb5f57fd58 = L.marker(
+                [51.5074, -0.1278],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_82eea4c108128c88406fabfc0f31d0ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_efc52a862b35e4ad36d82c16fd785b8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c03e4bb837389acd9a6baadd632895c2 = $(`<div id="html_c03e4bb837389acd9a6baadd632895c2" style="width: 100.0%; height: 100.0%;">London, UK: 32,013 streams</div>`)[0];
+                popup_efc52a862b35e4ad36d82c16fd785b8e.setContent(html_c03e4bb837389acd9a6baadd632895c2);
+            
+        
+
+        marker_5030405e4d2497cfbcd114cb5f57fd58.bindPopup(popup_efc52a862b35e4ad36d82c16fd785b8e)
+        ;
+
+        
+    
+    
+                marker_5030405e4d2497cfbcd114cb5f57fd58.setIcon(icon_82eea4c108128c88406fabfc0f31d0ba);
+            
+    
+            var marker_3a9f9bba5a4dfd49bad5ee571f7630c1 = L.marker(
+                [41.63541135086244, -4.097384003646161],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_660bb3e1398dd0295105e6121ccd51ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5eb7e4168bef7890e163d672c3e2ad5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dddf9b939f8e36d8a45a03c2dfa98433 = $(`<div id="html_dddf9b939f8e36d8a45a03c2dfa98433" style="width: 100.0%; height: 100.0%;">Seville, Spain: 31,956 streams</div>`)[0];
+                popup_5eb7e4168bef7890e163d672c3e2ad5d.setContent(html_dddf9b939f8e36d8a45a03c2dfa98433);
+            
+        
+
+        marker_3a9f9bba5a4dfd49bad5ee571f7630c1.bindPopup(popup_5eb7e4168bef7890e163d672c3e2ad5d)
+        ;
+
+        
+    
+    
+                marker_3a9f9bba5a4dfd49bad5ee571f7630c1.setIcon(icon_660bb3e1398dd0295105e6121ccd51ac);
+            
+    
+            var marker_aaa0c233715282ac5835f1b5f5bfa06c = L.marker(
+                [54.68707980139362, -107.02093797741144],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_95e24a333644517d7ae974b57cf79cd1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_178a6a26ae10ef0d006ab5b31497ee99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b97567771bdf6c567c1e203bc60d68b0 = $(`<div id="html_b97567771bdf6c567c1e203bc60d68b0" style="width: 100.0%; height: 100.0%;">Montreal, Canada: 31,933 streams</div>`)[0];
+                popup_178a6a26ae10ef0d006ab5b31497ee99.setContent(html_b97567771bdf6c567c1e203bc60d68b0);
+            
+        
+
+        marker_aaa0c233715282ac5835f1b5f5bfa06c.bindPopup(popup_178a6a26ae10ef0d006ab5b31497ee99)
+        ;
+
+        
+    
+    
+                marker_aaa0c233715282ac5835f1b5f5bfa06c.setIcon(icon_95e24a333644517d7ae974b57cf79cd1);
+            
+    
+            var marker_fbb9af093df7a3332467fd18e00207e7 = L.marker(
+                [56.34399341695616, -107.1480643287854],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_a9863145f9bb405ed2cdc91e201ffa21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_072320b2470b7fd793040a43194eb0ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec278d24101b1a4d5debd38fe401f859 = $(`<div id="html_ec278d24101b1a4d5debd38fe401f859" style="width: 100.0%; height: 100.0%;">Calgary, Canada: 31,529 streams</div>`)[0];
+                popup_072320b2470b7fd793040a43194eb0ec.setContent(html_ec278d24101b1a4d5debd38fe401f859);
+            
+        
+
+        marker_fbb9af093df7a3332467fd18e00207e7.bindPopup(popup_072320b2470b7fd793040a43194eb0ec)
+        ;
+
+        
+    
+    
+                marker_fbb9af093df7a3332467fd18e00207e7.setIcon(icon_a9863145f9bb405ed2cdc91e201ffa21);
+            
+    
+            var marker_979766ee44ea1941c8db425680a4a7a0 = L.marker(
+                [57.021882192297454, -3.733062331767392],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_f31f5948bab665ef923b2b585d572c49 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d615c9c0ba9d164e2e3363761cfe9f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30cf366d0dae7c1f1d48a665cd599ca3 = $(`<div id="html_30cf366d0dae7c1f1d48a665cd599ca3" style="width: 100.0%; height: 100.0%;">Manchester, UK: 31,357 streams</div>`)[0];
+                popup_4d615c9c0ba9d164e2e3363761cfe9f6.setContent(html_30cf366d0dae7c1f1d48a665cd599ca3);
+            
+        
+
+        marker_979766ee44ea1941c8db425680a4a7a0.bindPopup(popup_4d615c9c0ba9d164e2e3363761cfe9f6)
+        ;
+
+        
+    
+    
+                marker_979766ee44ea1941c8db425680a4a7a0.setIcon(icon_f31f5948bab665ef923b2b585d572c49);
+            
+    
+            var marker_5f80c881d63e5d9ccd6e10676dd83d42 = L.marker(
+                [37.842190192383015, 127.80661010231289],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_250ab8ab0b216af88f6eeedcad792bd4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d80307bef0f395fcb5b55f8846eccf7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3ac28598dd9ddfe7e4104542ac4dc05 = $(`<div id="html_f3ac28598dd9ddfe7e4104542ac4dc05" style="width: 100.0%; height: 100.0%;">Daejeon, South Korea: 30,575 streams</div>`)[0];
+                popup_d80307bef0f395fcb5b55f8846eccf7f.setContent(html_f3ac28598dd9ddfe7e4104542ac4dc05);
+            
+        
+
+        marker_5f80c881d63e5d9ccd6e10676dd83d42.bindPopup(popup_d80307bef0f395fcb5b55f8846eccf7f)
+        ;
+
+        
+    
+    
+                marker_5f80c881d63e5d9ccd6e10676dd83d42.setIcon(icon_250ab8ab0b216af88f6eeedcad792bd4);
+            
+    
+            var marker_61c712958e187fa478a2f579c972c92b = L.marker(
+                [35.52631137307986, 137.96810137232225],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_f016f03c9619bd0086098675365e9939 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_724876cfba71aa049cb0f7c40bb83385 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d43e05d5106673f8cbc39e58bfa561f = $(`<div id="html_4d43e05d5106673f8cbc39e58bfa561f" style="width: 100.0%; height: 100.0%;">Osaka, Japan: 30,014 streams</div>`)[0];
+                popup_724876cfba71aa049cb0f7c40bb83385.setContent(html_4d43e05d5106673f8cbc39e58bfa561f);
+            
+        
+
+        marker_61c712958e187fa478a2f579c972c92b.bindPopup(popup_724876cfba71aa049cb0f7c40bb83385)
+        ;
+
+        
+    
+    
+                marker_61c712958e187fa478a2f579c972c92b.setIcon(icon_f016f03c9619bd0086098675365e9939);
+            
+    
+            var marker_c648432b9418b33b0f2b3354e65ba257 = L.marker(
+                [59.37665277712595, 17.718087130276558],
+                {
+}
+            ).addTo(map_bc0e3048d1ae07a8680ccf86049067c8);
+        
+    
+            var icon_3ab7394c396862653e1c23cc82ce86a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_31009cd2e3f857994836bcaad6793a66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0230e1bce0d40e5ff6cab4c716a0565e = $(`<div id="html_0230e1bce0d40e5ff6cab4c716a0565e" style="width: 100.0%; height: 100.0%;">Västerås, Sweden: 29,965 streams</div>`)[0];
+                popup_31009cd2e3f857994836bcaad6793a66.setContent(html_0230e1bce0d40e5ff6cab4c716a0565e);
+            
+        
+
+        marker_c648432b9418b33b0f2b3354e65ba257.bindPopup(popup_31009cd2e3f857994836bcaad6793a66)
+        ;
+
+        
+    
+    
+                marker_c648432b9418b33b0f2b3354e65ba257.setIcon(icon_3ab7394c396862653e1c23cc82ce86a2);
+            
+</script>
+</html>

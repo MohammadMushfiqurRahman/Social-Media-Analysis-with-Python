@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_73a083f8ee4069d8745c806ea30796bb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_73a083f8ee4069d8745c806ea30796bb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_73a083f8ee4069d8745c806ea30796bb = L.map(
+                "map_73a083f8ee4069d8745c806ea30796bb",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e30ea7f59c3fb74d119f4dc7c84f56dd = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e30ea7f59c3fb74d119f4dc7c84f56dd.addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+            var circle_95db634f74216f955f299da440ec4b6e = L.circle(
+                [26.8206, 30.8025],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200000, "stroke": true, "weight": 3}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+        var popup_40414bbe251ab4c0925de57a38b276cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_993f2241b10c2a0db3669715702eec16 = $(`<div id="html_993f2241b10c2a0db3669715702eec16" style="width: 100.0%; height: 100.0%;">Egypt: 22,761 streams</div>`)[0];
+                popup_40414bbe251ab4c0925de57a38b276cf.setContent(html_993f2241b10c2a0db3669715702eec16);
+            
+        
+
+        circle_95db634f74216f955f299da440ec4b6e.bindPopup(popup_40414bbe251ab4c0925de57a38b276cf)
+        ;
+
+        
+    
+    
+            var circle_d6afa85ca08afec3fc5ec1a587fe6c40 = L.circle(
+                [9.082, 8.6753],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200000, "stroke": true, "weight": 3}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+        var popup_61341444a238a69e2cc329787e0473b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02974fb034bea53ca0187b2519384c81 = $(`<div id="html_02974fb034bea53ca0187b2519384c81" style="width: 100.0%; height: 100.0%;">Nigeria: 33,256 streams</div>`)[0];
+                popup_61341444a238a69e2cc329787e0473b2.setContent(html_02974fb034bea53ca0187b2519384c81);
+            
+        
+
+        circle_d6afa85ca08afec3fc5ec1a587fe6c40.bindPopup(popup_61341444a238a69e2cc329787e0473b2)
+        ;
+
+        
+    
+    
+            var circle_704b8ff90eede9676fc0bdba3de4db16 = L.circle(
+                [61.524, 105.3188],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200000, "stroke": true, "weight": 3}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+        var popup_27743fb3c9a6bf4a83fadc8cc118538b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_548fe01ae71e82d85d005cd9cae90ce8 = $(`<div id="html_548fe01ae71e82d85d005cd9cae90ce8" style="width: 100.0%; height: 100.0%;">Russia: 33,289 streams</div>`)[0];
+                popup_27743fb3c9a6bf4a83fadc8cc118538b.setContent(html_548fe01ae71e82d85d005cd9cae90ce8);
+            
+        
+
+        circle_704b8ff90eede9676fc0bdba3de4db16.bindPopup(popup_27743fb3c9a6bf4a83fadc8cc118538b)
+        ;
+
+        
+    
+    
+            var circle_eb5fab11cff82d928b85f4511d8dfee0 = L.circle(
+                [-30.5595, 22.9375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200000, "stroke": true, "weight": 3}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+        var popup_bf09e0789ccc74a6e83740f78c18131d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc4ed4cbe802747a535ce64bfc94e8c3 = $(`<div id="html_cc4ed4cbe802747a535ce64bfc94e8c3" style="width: 100.0%; height: 100.0%;">South Africa: 33,519 streams</div>`)[0];
+                popup_bf09e0789ccc74a6e83740f78c18131d.setContent(html_cc4ed4cbe802747a535ce64bfc94e8c3);
+            
+        
+
+        circle_eb5fab11cff82d928b85f4511d8dfee0.bindPopup(popup_bf09e0789ccc74a6e83740f78c18131d)
+        ;
+
+        
+    
+    
+            var circle_68d7dbcfb208a70167b1544ce4e2a0ad = L.circle(
+                [4.5709, -74.2973],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200000, "stroke": true, "weight": 3}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+        var popup_6c039e4810e28ac1caa6c3df9f61d514 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_301db68a593569e41f2863267124eec1 = $(`<div id="html_301db68a593569e41f2863267124eec1" style="width: 100.0%; height: 100.0%;">Colombia: 43,206 streams</div>`)[0];
+                popup_6c039e4810e28ac1caa6c3df9f61d514.setContent(html_301db68a593569e41f2863267124eec1);
+            
+        
+
+        circle_68d7dbcfb208a70167b1544ce4e2a0ad.bindPopup(popup_6c039e4810e28ac1caa6c3df9f61d514)
+        ;
+
+        
+    
+    
+            var circle_2f88d5231a3ebb0814321b4f853197b5 = L.circle(
+                [52.1326, 5.2913],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200000, "stroke": true, "weight": 3}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+        var popup_04079b7f370f626a5d2a6b33bd41dd2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_941629093d447b43883935fff09a796f = $(`<div id="html_941629093d447b43883935fff09a796f" style="width: 100.0%; height: 100.0%;">Netherlands: 48,144 streams</div>`)[0];
+                popup_04079b7f370f626a5d2a6b33bd41dd2e.setContent(html_941629093d447b43883935fff09a796f);
+            
+        
+
+        circle_2f88d5231a3ebb0814321b4f853197b5.bindPopup(popup_04079b7f370f626a5d2a6b33bd41dd2e)
+        ;
+
+        
+    
+    
+            var circle_03396ae0d5388d6388ab9fbcfdab204c = L.circle(
+                [-38.4161, -63.6167],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200000, "stroke": true, "weight": 3}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+        var popup_af44fa852dbb2691be3409aebc4dfe42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95b0172940e484ed9b0f6b2de5f12442 = $(`<div id="html_95b0172940e484ed9b0f6b2de5f12442" style="width: 100.0%; height: 100.0%;">Argentina: 48,468 streams</div>`)[0];
+                popup_af44fa852dbb2691be3409aebc4dfe42.setContent(html_95b0172940e484ed9b0f6b2de5f12442);
+            
+        
+
+        circle_03396ae0d5388d6388ab9fbcfdab204c.bindPopup(popup_af44fa852dbb2691be3409aebc4dfe42)
+        ;
+
+        
+    
+    
+            var circle_f87b7cd013cd40884f33d2332fe199f7 = L.circle(
+                [-0.7893, 113.9213],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200000, "stroke": true, "weight": 3}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+        var popup_e3ddf63ecad92aa8cc2298d0a92939e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5b6fb7d8ceae14cf7b0372c4dc0a163 = $(`<div id="html_e5b6fb7d8ceae14cf7b0372c4dc0a163" style="width: 100.0%; height: 100.0%;">Indonesia: 48,591 streams</div>`)[0];
+                popup_e3ddf63ecad92aa8cc2298d0a92939e3.setContent(html_e5b6fb7d8ceae14cf7b0372c4dc0a163);
+            
+        
+
+        circle_f87b7cd013cd40884f33d2332fe199f7.bindPopup(popup_e3ddf63ecad92aa8cc2298d0a92939e3)
+        ;
+
+        
+    
+    
+            var marker_90bd4e0f5bea0d86337358537d064cf5 = L.marker(
+                [51.747735452329714, 5.250279396441708],
+                {
+}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+            var icon_b7defea7b801d551a3db78d1972cc875 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "volume-down",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d111f70d2986b3218194b0613c98ac01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f00cf2bfa17412f9e9a33a959ded37f3 = $(`<div id="html_f00cf2bfa17412f9e9a33a959ded37f3" style="width: 100.0%; height: 100.0%;">Eindhoven, Netherlands: 5,747 streams</div>`)[0];
+                popup_d111f70d2986b3218194b0613c98ac01.setContent(html_f00cf2bfa17412f9e9a33a959ded37f3);
+            
+        
+
+        marker_90bd4e0f5bea0d86337358537d064cf5.bindPopup(popup_d111f70d2986b3218194b0613c98ac01)
+        ;
+
+        
+    
+    
+                marker_90bd4e0f5bea0d86337358537d064cf5.setIcon(icon_b7defea7b801d551a3db78d1972cc875);
+            
+    
+            var marker_0b522bd749b3c59658e4cb04e01735b7 = L.marker(
+                [41.9028, 12.4964],
+                {
+}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+            var icon_b4a1de56bab897d9cce094d4752af852 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "volume-down",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2ea8340c536157eadd05908fd56c2b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b27d517c3a9713c247556b085ad82be5 = $(`<div id="html_b27d517c3a9713c247556b085ad82be5" style="width: 100.0%; height: 100.0%;">Rome, Italy: 7,339 streams</div>`)[0];
+                popup_a2ea8340c536157eadd05908fd56c2b7.setContent(html_b27d517c3a9713c247556b085ad82be5);
+            
+        
+
+        marker_0b522bd749b3c59658e4cb04e01735b7.bindPopup(popup_a2ea8340c536157eadd05908fd56c2b7)
+        ;
+
+        
+    
+    
+                marker_0b522bd749b3c59658e4cb04e01735b7.setIcon(icon_b4a1de56bab897d9cce094d4752af852);
+            
+    
+            var marker_55c69761405a4dcb84a7bf5df9dedc42 = L.marker(
+                [61.01636882733752, 19.606083555828526],
+                {
+}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+            var icon_fe8b14bf21800e78d0c2b202189f3374 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "volume-down",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56db279a9f3da5e0cc0038a30e8067e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a22636c154caf35c14e41dd0f558586a = $(`<div id="html_a22636c154caf35c14e41dd0f558586a" style="width: 100.0%; height: 100.0%;">Malmö, Sweden: 8,881 streams</div>`)[0];
+                popup_56db279a9f3da5e0cc0038a30e8067e5.setContent(html_a22636c154caf35c14e41dd0f558586a);
+            
+        
+
+        marker_55c69761405a4dcb84a7bf5df9dedc42.bindPopup(popup_56db279a9f3da5e0cc0038a30e8067e5)
+        ;
+
+        
+    
+    
+                marker_55c69761405a4dcb84a7bf5df9dedc42.setIcon(icon_fe8b14bf21800e78d0c2b202189f3374);
+            
+    
+            var marker_78e3121e4a99b48dd39b1c4e5538b399 = L.marker(
+                [-13.128804717048382, -51.884539471681784],
+                {
+}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+            var icon_ea801a15b2764502f066816e9e9a9335 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "volume-down",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9489ae9fb346a712a56ef22e451ff991 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cee9a872990446c71bff857386a362b = $(`<div id="html_0cee9a872990446c71bff857386a362b" style="width: 100.0%; height: 100.0%;">Brasília, Brazil: 10,237 streams</div>`)[0];
+                popup_9489ae9fb346a712a56ef22e451ff991.setContent(html_0cee9a872990446c71bff857386a362b);
+            
+        
+
+        marker_78e3121e4a99b48dd39b1c4e5538b399.bindPopup(popup_9489ae9fb346a712a56ef22e451ff991)
+        ;
+
+        
+    
+    
+                marker_78e3121e4a99b48dd39b1c4e5538b399.setIcon(icon_ea801a15b2764502f066816e9e9a9335);
+            
+    
+            var marker_fe9ebb3f94386b5dddf927d8bba74683 = L.marker(
+                [56.12801913692104, -106.82257948140582],
+                {
+}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+            var icon_e68725d5a373c6722a720bcdf7abb020 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "volume-down",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bec1d7226261916dadcad3d04631d460 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d0d849108f1aea08d15d9447ae8b181 = $(`<div id="html_5d0d849108f1aea08d15d9447ae8b181" style="width: 100.0%; height: 100.0%;">Ottawa, Canada: 10,362 streams</div>`)[0];
+                popup_bec1d7226261916dadcad3d04631d460.setContent(html_5d0d849108f1aea08d15d9447ae8b181);
+            
+        
+
+        marker_fe9ebb3f94386b5dddf927d8bba74683.bindPopup(popup_bec1d7226261916dadcad3d04631d460)
+        ;
+
+        
+    
+    
+                marker_fe9ebb3f94386b5dddf927d8bba74683.setIcon(icon_e68725d5a373c6722a720bcdf7abb020);
+            
+    
+            var marker_5c51765a5d5041f72265b54307f5b20d = L.marker(
+                [36.64070782185884, -94.6458351365249],
+                {
+}
+            ).addTo(map_73a083f8ee4069d8745c806ea30796bb);
+        
+    
+            var icon_66a6fffdcd4a8afaad63c8e4c7ff6a05 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "volume-down",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0534a999bc3b6d9f1596e716fcedee28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_090a3f7432b93958380118118ef1fe01 = $(`<div id="html_090a3f7432b93958380118118ef1fe01" style="width: 100.0%; height: 100.0%;">Houston, USA: 13,411 streams</div>`)[0];
+                popup_0534a999bc3b6d9f1596e716fcedee28.setContent(html_090a3f7432b93958380118118ef1fe01);
+            
+        
+
+        marker_5c51765a5d5041f72265b54307f5b20d.bindPopup(popup_0534a999bc3b6d9f1596e716fcedee28)
+        ;
+
+        
+    
+    
+                marker_5c51765a5d5041f72265b54307f5b20d.setIcon(icon_66a6fffdcd4a8afaad63c8e4c7ff6a05);
+            
+</script>
+</html>
